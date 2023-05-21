@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVE ESPACIAL</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" href="img/nav.ico" type="image/x-icon"> 
+</head>
+<body>
+    <audio id="audio-player" autoplay>
+        <source src="img/audio.mp3" type="audio/mpeg">
+      </audio>
+      
+
+    <div class = "conteiner">
+        <nav>
+            <div class = "logo">
+                <span> A JORNADA DE ZIN</span>
+            </div>
+    
+            <ul>
+                <li><a href="sobrejogo.html" >Sobre o Jogo</a></li>
+                <li><a href="integrante.html">Criador</a></li>    
+            </ul>
+        </nav>
+    </div>
+
+    <p id="scoreText">Pontuação: 0</p>
+    <canvas id="gameCanvas" width="500" height="600"></canvas>
+    <button id="startButton">Começar</button>
+
+    <h2>Como Jogar:</h2>
+    <p class="instrução"> W (move o Zin para cima) <br>S (move o Zin para baixo) <br> A (move o Zin para esquerda) <br>D (move o Zin para a esquerda) <br>F (ativa o relógio, fica lento) </p>
+    <br>
+    <h2>Objetivo:</h2>
+    <p class="instrução"> Desvie dos meteoros e consiga o máximo de pontos possível </p>
+
+
+
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to bottom, #000346 60%, #9d00c0 100%), url(fund.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: block;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#audio-player {
+  display: none;
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: white;
+  text-align: 15px;
+}
+
+#gameCanvas {
+    border: 1px solid #000;
+    background-image: url('img/univ.png');
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+  top: 14%;
+  left: 32%;
+  }
+  
+  #scoreText {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #startButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+
+  span{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 37px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    
+    }
+    
+    .conteiner{
+    max-width: 1400px;
+    padding: 1%;
+    margin: 0 auto;
+    
+    }
+    
+    *{
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    
+    
+    nav{ /*caixa*/
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: space-between;
+    border: 1.5px solid white;
+
+    }
+    
+    nav ul{
+    list-style: none;
+    }
+    
+    nav ul li{
+    display: inline-block;
+    }
+    
+    nav ul li a{
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 25px;
+    transition: 1s;
+    }
+    
+    nav ul li a:hover{
+    background-image: linear-gradient(to bottom,  #060606dd 60%, #9d00c0a0 100%);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    }  
+  
